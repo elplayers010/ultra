@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ULTRAKILL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Tiny5&display=swap" rel="stylesheet">
+</head>
+
+<style>
+nav{
+background-color: black;
+padding: 70px;
+}
+
+.in{
+margin: 10px;
+color: white;
+font-size: xx-large;
+text-decoration: none;
+}
+
+.in:hover{
+margin: 10px;
+color: red;
+font-size: xx-large;
+text-decoration: none;
+
+animation-name: ultra;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+-webkit-animation-name: ultra;
+-webkit-animation-duration: 3s;
+-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes ultra{
+0% {color: red;}
+50% {color: #2e0000;}
+100% {color: red;}
+}
+
+@-webkit-keyframes ultra{
+0% {color: red;}
+50% {color: #2e0000;}
+100% {color: red;}
+}
+
+#inicio{
+background-image: url('ultraimg.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 2600px 600px;
+padding: 100px
+}
+
+#armas{
+background-color: black;
+padding: 200px;
+text-align: center;
+color: white;
+}
+
+.t1{
+font-family: "Tiny5", sans serif;
+font-size: xxx-large;
+text-decoration: underline;
+}
+
+</style>
+
+<body style="margin: 0%;">
+
+<header>
+
+<nav>
+<a class="in" href="#inicio">Início</a>
+<a class="in" href="#armas">Armas</a>
+<a class="in" href="#inimigos">Inimigos</a>
+<a class="in" href="#lore">Lore</a>
+<img src="logo.png" width="500px" style="padding: 0px 0px 0px 1200px;">
+</nav>
+
+<section id="inicio">
+<h1 class="t1">ULTRAKILL</h1>
+<h2 class="exp1">ULTRAKILL é um jogo indie e rogue-like, criado por Hakita,<br> onde seu objetivo é coletar sangue matando inimigos enquanto desce pelas camadas do inferno,<br> um jogo de tiro rápido muito conhecido na comunidades de jogos independentes.</h2>
+</section>
+
+<section id="armas">
+    <hr>
+<a class="t1" style="color: cyan;"  href="Piercer.html">Piercer</a>
+<hr>
+<a class="t1" style="color: rgb(255, 0, 0);"  href="shotgun.html">Shotgun</a>
+<hr>
+<a class="t1" style="color: rgb(81, 255, 0);"  href="nail.html">Nailgun</a>
+<hr>
+<a class="t1" style="color: rgb(16, 0, 160);"  href="rail.html">Railcannon</a>
+<hr>
+<a class="t1" style="color: rgb(229, 255, 0);"  href="rocket.html">Rocket Launcher</a>
+<hr>
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+
+</audio>
+</section>
+</header>
+
+</body>
+</html>
